@@ -1,3 +1,5 @@
+-- This is question 2 on the certification test. We have to make 3 columns for 1st, 2nd, and 3rd rankers for each contest 
+-- given the scores and multiple attempts of each candidate only the maximum-scored attempt has to be considered
 WITH ranked AS(
     SELECT 
  event_id, participant_name, MAX(SCORE),
